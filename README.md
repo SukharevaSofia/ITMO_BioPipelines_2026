@@ -30,4 +30,4 @@ nextflow run ./hw3/main.nf --local_file ./hw3/ --reference hw3/ggal_ref.fna --re
 ```
 
 ## Docker info
-docker hub location: sssofya/hw3-pipeline
+docker hub location: [sssofya/hw3-pipeline](https://hub.docker.com/repository/docker/sssofya/hw3-pipeline/general)
