@@ -2,7 +2,8 @@
 
 before working with the pipeline, please run:
 ```sh
-zstd -d ggal_ref.fna.zst
+wget --output-document=ggal_ref.fna.gz 'https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/315/GCF_000002315.6_GRCg6a/GCF_000002315.6_GRCg6a_genomic.fna.gz'
+gunzip ggal_ref.fna.gz
 ```
 
 # Running
