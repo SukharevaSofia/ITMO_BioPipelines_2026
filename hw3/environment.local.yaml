@@ -1,0 +1,13 @@
+name: hw3-pipeline
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - nextflow >=24.04
+  - sra-tools >=3.0
+  - fastqc >=0.12
+  - trimmomatic >=0.39
+  - bwa >=0.7
+  - samtools >=1.19
+  - bcftools >=1.23
